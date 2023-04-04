@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #00f;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.caja {
+    display: inline-block;
+    padding: 50px;
+    margin: 50px;
+    height: 200px;
+    width: 250px;
+
+    font-size: 30px;
+    text-align: center;
+}
+
+#none {
+    border: none;
+}
+#dotted {
+    border: 10px dotted #0f0;
+}
+#dashed {
+    border: 10px dashed #0f0;
+}
+#solid {
+    border: 10px solid #0f0;
+}
+#double {
+    border: 10px double #0f0;
+}
+#groove {
+    border: 10px double #0f0;
+}
+#ridge {
+    border: 10px ridge #0f0;
+}
+#inset {
+    border: 10px inset #0f0;
+}
+#outset {
+    border: 10px outset #0f0;
+}
